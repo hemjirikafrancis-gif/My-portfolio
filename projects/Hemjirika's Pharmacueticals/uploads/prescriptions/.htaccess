@@ -1,0 +1,5 @@
+# Uploaded files are user-submitted; never let this folder execute code.
+<FilesMatch "\.(php|php\d|phtml|pl|py|cgi|asp|sh)$">
+  Require all denied
+</FilesMatch>
+Options -Indexes
